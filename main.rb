@@ -2,7 +2,6 @@ require File.expand_path('../app_setup', __FILE__)
 require File.expand_path('../app/models/article', __FILE__)
 require File.expand_path('../app/services/params', __FILE__)
 
-
 class ShoesApp < Shoes
 
   url '/', :index
